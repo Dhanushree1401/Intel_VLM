@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Application</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+        img { max-width: 300px; margin-top: 10px; }
+        .result-container { display: flex; flex-wrap: wrap; }
+        .result-item { margin: 5px; text-align: center; }
+        .result-item img { width: 150px; height: 150px; object-fit: cover; }
+    </style>
+</head>
+<body>
+    <h1>Image Search Application</h1>
+    
+    <div>
+        <h2>Upload Image</h2>
+        <input type="file" id="imageUpload" accept="image/*">
+        <div id="preview"></div>
+    </div>
+
+    <div>
+        <button onclick="classifyImage()">Classify Image</button>
+        <div id="classificationResults"></div>
+    </div>
+
+    <div>
+        <button onclick="searchSimilarImages()">Search Similar Images</button>
+        <div id="similarImages" class="result-container"></div>
+    </div>
+
+    <div>
+        <h2>Text-Based Image Search</h2>
+        <input type="text" id="textQuery" placeholder="Enter search query">
+        <button onclick="searchImagesByText()">Search</button>
+        <div id="textSearchResults" class="result-container"></div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'http://localhost:8000';
+        let selectedFile = null;
+
+        document.getElementById('imageUpload').addEventListener('change', function(event) {
+            selectedFile = event.target.files[0];
+            if (selectedFile) {
+                const imgPreview = document.createElement('img');
+                imgPreview.src = URL.createObjectURL(selectedFile);
+                document.getElementById('preview').innerHTML = '';
+                document.getElementById('preview').appendChild(imgPreview);
+            }
+        });
+
+        async function classifyImage() {
+            if (!selectedFile) {
+                alert('Please select an image first');
+                return;
+            }
+            const formData = new FormData();
+            formData.append('image', selectedFile);
+            try {
+                const response = await fetch(`${API_BASE_URL}/classify-image`, { method: 'POST', body: formData });
+                const data = await response.json();
+                document.getElementById('classificationResults').innerHTML = `<h3>Classification Results:</h3><ul>` +
+                    data.top_predictions.map(pred => `<li>${pred.category}: ${(pred.confidence * 100).toFixed(2)}%</li>`).join('') + '</ul>';
+            } catch (error) {
+                alert('Image classification failed');
+            }
+        }
+
+        async function searchSimilarImages() {
+            if (!selectedFile) {
+                alert('Please select an image first');
+                return;
+            }
+            const formData = new FormData();
+            formData.append('image', selectedFile);
+            try {
+                const response = await fetch(`${API_BASE_URL}/search-similar-images`, { method: 'POST', body: formData });
+                const data = await response.json();
+                document.getElementById('similarImages').innerHTML = `<h3>Similar Images in Category: ${data.category}</h3>` +
+                    data.similar_images.map(img => `<div class='result-item'><img src='${img.url}' alt='Similar'><p>${img.description}</p></div>`).join('');
+            } catch (error) {
+                alert('Similar image search failed');
+            }
+        }
+
+        async function searchImagesByText() {
+            const query = document.getElementById('textQuery').value;
+            if (!query) {
+                alert('Please enter a search query');
+                return;
+            }
+            try {
+                const response = await fetch(`${API_BASE_URL}/search-images-by-text?query=${query}`);
+                const data = await response.json();
+                document.getElementById('textSearchResults').innerHTML = `<h3>Search Results:</h3>` +
+                    data.images.map(img => `<div class='result-item'><img src='${img.url}' alt='Result'><p>${img.description}</p></div>`).join('');
+            } catch (error) {
+                alert('Text-based image search failed');
+            }
+        }
+    </script>
+</body>
+</html>

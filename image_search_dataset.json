@@ -1,0 +1,525 @@
+{
+    "health": [
+        {
+            "url": "https://img.freepik.com/free-vector/healthy-people-carrying-different-icons_53876-66139.jpg",
+            "description": "Vitamin C supplement",
+            "category": "Supplements"
+        },
+        {
+            "url": "https://m.media-amazon.com/images/I/413JJey+suL.AC.jpg",
+            "description": "High-quality yoga mat",
+            "category": "Fitness"
+        },
+        {
+            "url": "https://m.media-amazon.com/images/I/71-qOprKrIL.AC_UF1000,1000_QL80.jpg",
+            "description": "Digital blood pressure monitor",
+            "category": "Medical"
+        },
+        {
+            "url": "https://hsph.harvard.edu/wp-content/uploads/2024/03/green-tea-1200x800-1.jpg",
+            "description": "Organic herbal green tea",
+            "category": "Nutrition"
+        },
+        {
+            "url": "https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1800,h_1200/https://pttimewithtim.com/wp-content/uploads/2023/03/How-to-use-massage-gun.jpg",
+            "description": "Deep tissue massage gun",
+            "category": "Wellness"
+        }
+    ],
+    "e-commerce": [
+        {
+            "url": "https://techcrunch.com/wp-content/uploads/2014/06/amazon-angled.jpg",
+            "description": "Global online selling platform",
+            "category": "Marketplace"
+        },
+        {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopify_logo_2018.svg/1024px-Shopify_logo_2018.svg.png",
+            "description": "E-commerce store builder",
+            "category": "Retail"
+        },
+        {
+            "url": "https://www.orderz.in/blog/wp-content/uploads/2025/01/What-is-Drop-Shipping.png",
+            "description": "Comprehensive dropshipping guide",
+            "category": "Education"
+        },
+        {
+            "url": "https://www.shutterstock.com/image-vector/artificial-intelligence-ai-gear-set-260nw-1459151612.jpg",
+            "description": "AI-powered recommendation engine",
+            "category": "Technology"
+        }
+    ],
+    "gaming": [
+        {
+            "url": "https://images.jdmagicbox.com/quickquotes/images_main/asus-rog-strix-hero-gaming-laptop-gl504-15-6-144hz-ips-type-slim-display-intel-core-i7-8750h-processor-up-to-3-9ghz-113434402-8iqea.jpg",
+            "description": "High-performance gaming laptop",
+            "category": "Hardware"
+        },
+        {
+            "url": "https://images-cdn.ubuy.qa/63400c68afe02d2b0c7aeb85-mechanical-gaming-keyboard-87-keys-small.jpg",
+            "description": "Mechanical gaming keyboard",
+            "category": "Accessories"
+        },
+        {
+            "url": "https://images-cdn.ubuy.co.in/667e9ab17dfef84adb3bde66-gaming-headset-ps5-ps4-headset-with-7-1.jpg",
+            "description": "Wireless gaming headset",
+            "category": "Audio"
+        },
+        {
+            "url": "https://www.gamereactor.eu/media/45/_3954523.png",
+            "description": "Top-rated AAA action games",
+            "category": "Video Games"
+        }
+    ],
+    
+        "programming_languages": [
+            {
+                "url": "https://www.shutterstock.com/image-vector/vector-illustration-icon-python-programming-260nw-1397241389.jpg",
+                "description": "Popular programming language for AI & web development",
+                "category": "Python"
+            },
+            {
+                "url": "data:image/jpeg;base64,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",
+                "description": "Most used language for web development",
+                "category": "JavaScript"
+            },
+            {
+                "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAxlBMVEX////qLS4AdL0AabkAbLoAcrzpDxHqKivpFxkAb7v3vb0Aa7n62toAaLgAcLvoAADqJSbg7PXpHR7++vrrPD397+/84eH0np7pCQz+9/f85ua0y+T3u7vpGxwAZbfx9/vxhYW61Onwenv61dX2sbHsRUbrMjPO4fDzmpvuYWL1qan5zMzykZHvb2/sTU6jw+HvcnPtVlfY5vIAX7VqodGQt9t8rNZUlcsSesDyi4vsRUX5zs7uZWYsg8RgnM7o8fg/i8eJs9mQUkspAAAPbUlEQVR4nO1daXeqSBCVHcIDETXivkaSmEjicyFvguL//1PTGwiI0SQiwvF+mDODSU9dq7vWDlUopItGI2UBksdD2gIkjvfntCVIGj0xbQmSxnNxlLYICaPFv6ctQsK4E4vVtGVIFi1RvEtbhmTREvXHtGVIFjVdG6QtQ7LoadpT2jIki6kgTNOWIVGUDUrLt7uYiFTOz+FAo/JtS8s6ReXbHz63KSrfMY0gUEKuM8QaUKFeS1uKBFEVKYri81zHeNIoKtcRzTMPVGgM0xYjOQwNQDDPAU1VFwDD4p+05UgM9YoGVfiWthyJofwACQpaPW1BEsMUEqSKuQ3YqmiLUnpus4oGhQhq/9IWJCkMRWhFKYHPa8jdMhBByvgvbUkSwoeB+FHFVvzn9Yx7yPKTiAkasT2n6ugz472o+7FGCMaULurP0+Jbxs/mHTmClLGfFE6ejOI04zvUP4JUMboV67UK3zay3merT8kRFKJG5n5Q1AX+KeMbtPBHI0dQ4CfhD14NjdLEA6Y1OxgVyRHUtPvg8/vPokYJxlvmQ/CedwT1aXAz1nsGrGS0M6/AgucFKT6UEI7aOngmTrN+Agv1fzoV4+er7zzcucZHaoKdCyRXgkY0aGNaIkqCjezniFXBI6gH62o95P016v7gL2YFVcojqAVqv+X3NjKslcwfwUI9liCuQ1Haezk9yc6Fqe/nA9ux/A8TzEN/e9D2rGgw330gVYwcaHDiOXo+GFUPsPMQs38GCwXKC9VeAw9bmDaf/UCmUHhse1YmEHbWcSFK+0xPrrOhrBMV8kGv3sN7tJh9RwjvHRIVBm1mFe/RfDSdBlqMCmt45+oZrzhhPAjkFAYf/sMPxcmh38oSSEahBZOHKtm5fC7qwVqMuoY8ZpiPe0IVUr4PevYW0WE+7np9YkujBYOzVpx9zSwe0UEUqOAzz4NQRh78ITlzIR165zAnly5xWMoHK4VVjyHF50GJeJvyoW7EWPCUmIeopo4U1g71I3qar8Ss9ykgXqASw5dm/vO3KSXm4NIezi740DN/m+ajitGCGgt3XZ7FnRLz4Pah149cAxZ8JVJG1luiAHW4T0PpE9YriWzGacl1RkyKgEgl9OjJN6dUOw/7tAZUJoby3Z3XB59kvnEI8NaOVg7vijuGeXCKhXctep37xbenuSi5FcpjLRrA+EcxF7YG9p+EcB4MSBOXES7iZBcNTYgE2kNS7w9njxkGoCiG70G9avnJMBAAxXCVm0Tg+ajXIDS0yJ1gXInLRXGfoEHxoVsX76iPn6s/CqqG9+kbPIg5+4uSeiWYEMKsQ3xJTZhkUK4EMsWKkCNDusOrX1msipRWOdzI786a1sJqzi4i1c/R3X/kl2ae29r4YCPfcjt/OwrLsgw9N5OR7VcA3/927Uruth9D0cO4/XAocZrZK6vfby5thqM5VVl9sUoa6C8dttNh11+xA6gVXw9+5m9N02Fpmpak61HjxlqxMsuwx3fW/d5V73gsZUCR6/R/LdpZ0HQVVlUZt3n8R6vTU0OZJdQix5R+JdlZsFmqskrTsnvKjqp/4yqNC1alVfencp0Ls1VH4oAk7OKXC5X2vqCSAtallZSP4lyRoBg05/x4ia7ZX6xtx9r/ZAWVKM1/Id7vgSweAnvCGQxjUzKha1EVWe7YsQbFQqvbvxfz59h0OI8hLTvb/glWoVsy+9Zi7jo0y8ispKqcysoHdngfmlO6c16Zv4kmy/ocOUlmGNtdLxeW1Wz2CZpNy7IW2+V8vXIdh5YVRgbEJJUDv8epkqzYa2tzYHUTMVRSdvuWI8uS6msS8JQkEHOxMgH8d8BIUqG6OG73U+AnaBD7HGIHgXXIXIzLIXT7W5dViGJ2u3YPMA5TITNGkZ3V0jK/IoewkH5nw86KjdmEh8vmWLQPsepYX5kMw7Cc7azm24Vlzk7ddg78vqRlooJ/G91udzMz4fHzAM6iac5K4IPvrjXD/vDa06hfYH0dMU1yMBnkK3KsQhueQnmbthj7OFcYuYaGVHLPtNrZ0F1wZ9pVW+gLpSvxFDts5U5MAP0TLOAhZN3zLHY2mDTLMUfd+ElYAkfBKelmFfswO/Br/44ON/1tfKy+BltUlb6drSQNFIHQ8vKUssPGtJYuDUO9mLRpA3Iy7urqbAVi3YF1YFgQdDb7s82eiCDeAanTcm0rkBuKYbnOMvpjTUXlZOd6imw7WF6yCJIiFsbXEm07juu6q9UK/NOBQauCUqdQeC5JiyDH7opRZfvqNiiGFUgWvWyCA/kEAsfFJR4wQ5TdgFe3ZFlZXUkFMQbdrSqrX+RPUXasLLlbM6DBmfNXOukcp4j+GpxD6WuaHMp/FWduhQ/bZqVcZatiDzNoJlERBqX1kBGqWKD0F5xPiXbW2+Y+le4yE/Q8dGf95mK5hvbFBufRth13BSs4fXPfxN5www03/AClHFceIJruOm0REoVpy2n3w5KFpYBg1D0l8DKvPDo7gBLMgmmVcReHGxKbWX+xdmSGucIy2nHgXgpM0EGaZLvz5aLZN2cliJnZb1rbuQs/wYErK52pqHNJdJVgzI0bMbBpAQGbGbir5ofgrLrNXAzXV07OnjDHv+vz1K4uB9ORT88QJYZeZI0gQNNRpOMkQf6r2Nus+hVzTsvsF1kwYMeoKysrkU+3ZFoAEW3MrBXt94VRUY3DPWCQAjMgu88Muya8rPdXceaLmKR9YwLvsHJsGtbegEpBFjzfWv2skAP0LFeWZXiYjln8LsI3l9+kHRD0VwyrslKCtZW5m9jSJ6BpMyrNMYsk/fW8k56lxT6PcxJ1ZaaSXoN7i+MWOdHkwGKZ1JpraxJdf/+u3snoWjbTSc3S9BXPcbPrRBoMpeaKZZQUm09LyY9NVIZeHrm2/j1sQOYIAoWUmzOo1etDklln2TzqEY+hC7LipavC1JFl7HA0nqjBjkWfDjeYOCAUY7tLEK1807jCO7TWAoQ9EtAb7HJIrOIuIhZ0655N8tPRX3MKCDlD0TSMOGGOSzvr5XaxsJr4OtsOs5lpwvum1mK7XQJWNIt/AbZvcCMR7oaovkz7b0o+A/5tjN1Bt3zDjU/YOkM3TMmVxADIfVP4ubr7LdgxlhVptYg50eZK6fz2hvzvANKK7dq1ZWavQHECSKJBg/0de46hy1CVdAl6wK20uUvDogy6W+rfCd71D1G/W8I9RBnXqWCiccCMdPtrlgUn/Ooa3l1cUrPwvW7XcWD/EAHeWVit1nPYQ+zPSl/apNnCVYA1U5V55upUJ8AEqbPMqiCekNfZrBkfRnfWXLrQdnHAASn2lZWoTr66HQvAbbG2WUQOulfZiTrF9LHZui6sZHx9viJAf1wCbDGtwOsb0Bip6IpG87q05wOYB/bv346iOqsl8PnA5UOPv+nusNmUStDrWwvs8Yl3RCUq6Di4vfsn1wcYOTtMp9NRAoA04CUwAIbxfD50JeT6iax06BWI+bJ0SaME1ATCTfjnF5IMeZF4xvvTC7ArVeg+4PWT5rej2SsD3JwoJEVBKfjnDMSqP/jbixtuuOGGG2644Ybz489jDeIxB28DPoBWUYfI2cusgiAvkOdvDLOLG8Ps48Yw+7gxzD5uDLOPeIblYevxo/c2+HhsBT8oE0QXiXleHo68Ffy3utXhGwgvPhAyhuHkZcrzoq5B6KIxfvHf/dgoYkTeOTskj70XuJXvemCF9t4KtddhpSAmzSiKKMM/PZHXd5Md4KusdcN/AfQUf8KHFUHGPxkNfwUtsgJ+/WB1VB30Lj5dKMJwVNSoffCeWI9kNGd4GlkNP8VTTB5jVzB64KNGqzp5ufgr+CMMvUlOAtphviZ48jrrP2T4U1gRb3jmKt67EzF2BSP8IvALIsKwrgPRRF58eB18fAwqvDeLu0jOIh7+JAihNfAAQR2/Trhq4BUqnx9ghTHvaZRPayRr9BxODWqws36NF6JTnbzj+gMLHBoLWCdbl0zXqxjjXmCFD/Jmej2t9ylHGY4iQxvJqFxvQIn3EvaguPdGSEnPkRVG+FdSm59w1OOT4VXeVAR8skLiYlMaGdISAHn5flrb9ChDYly8fUnGkgaH5uGde3jIHNF7WmHTUYZ1TMlzEOTn9YBpxE7y8CSWuhE6p5fG8bgUj+nwGJbxdJngbEf8pHi4HhnrRC+G4wwrIYbe6BXeJ4Rd6FeGRBAyxXCERwG3/ddAPyMVab3D/4+MMWyQsMaPvvGg0q/kp66SYWPy3Bu8Pr2/v1ORU0Si76L3MnaioT1f0Lh77r3FrnBZxDL8D0RbYhsHlkJUvlrYcGBvEp0qOxkIh1e4LGIYjsaR7CcsHwlhvJGPmLAeCqxrwpcrXBZ7DBsPvD/FCWFPPuw+BDJdFtvW4ITAYUU8ssJFEWU4JMmAzhfHTwOIcVS+D5IOIg9e3/MVrSL+Br5Y4aKIMLw3kHia/jH08vhK1BKSKAz7B/z7+m68zgQHAJr+cniFiyLCsII0qD8FLOO+fCT6RqPIcJy6y6bK+EP9MzD34t8VMcSZTnhyzD5DEn3zwwLxFYGM+BEFBOH5SNfEEPu68KDmfYbkd2BYg0O2QEAjxKzwcD0M8VzKSKa3z7BMDuKnlzkZQ++jP0bU8BSuiuF/MZs0zk7gQA3uTeQ5Al8JzoYjQ7yuiCH+D+Eow5FXIMUBTaCmgf1/5DuaXh3DY7vUm7Labr3gTbo7dZhhZJdeEUNS6wzZibtwjo+BZdYGiH0wJn3GuRXfOLbC5RBi6IWcuxlH5R4pBoblI9E39n3BedYTYoR2c8rLg9gVLodWyFuQPMCfFTeivJJwWD7yVSB4ASpClYzQPbrC5UBSdrIxvbn3uvYxuhsNRBhCx2bolV3qoIUGIj7tVmj5K6TKMHxwGt4UY0Frg/QOEaigQxeR70X3GYZLUJP9FfTpOE2GpJvklWtrge2Hv/n3MlJsRL6hP7M6Ou24x4cXEIxXOC05PYakEaF7gfJLMZi66nyNqDkqn6/DXTxDMDACKwg6rKPGfUcXwy48IZhUDB1WHgTYQepB1d4VeZ4vRuQbwIfw+cPekq3ACu0X+NXV0ArfmPF1TpCEPVhmGb68jwVN+NdrYcXWhxCRSlP1niCuG/Hf4xNcYdq7w2a2GrfCheDVBj8iz8u/ngf/+xXOg1q6FffkUSeXEsSL3wG5FD6JJe2lLUhS6JFbBUZaPfak4Tln4+I3QC6D6nubhC0Xv8RzGdRErxb9efyHM4kWaeYW8zZVe4dHeAr1/HpCgEFb5wdXEnkkhKeXrHiJ/wGM6mZc6TsfAgAAAABJRU5ErkJggg==",
+                "description": "Widely used language for enterprise applications",
+                "category": "Java"
+            }
+        ],   
+    "artificial_intelligence": [
+        {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2aZUQFSzqD6zqNGkqX13k8v-4INnwKR8RMw&s",
+            "description": "Best guide to machine learning concepts",
+            "category": "Machine Learning"
+        },
+        {
+            "url": "https://d24hrkfl5wrd0k.cloudfront.net/uploads/2019/04/NLP-1200x627.jpg",
+            "description": "Best courses on natural language processing",
+            "category": "Natural Language Processing"
+        }
+    ],
+    "personal_finance": [
+        {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDFmRGELdhIkdM_Q8PuMcs0qZF6nKU8iIamw&s",
+            "description": "Best budgeting strategies for saving money",
+            "category": "Budgeting"
+        },
+        {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMdyC0rgOO8bUbmyQ66iwF_MdnyELQMlJ_2g&s",
+            "description": "Beginner’s guide to investing",
+            "category": "Investing"
+        }
+    ],
+    "digital_marketing": [
+        {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8IxuCWKvbASIeNP75EkJq5HLjJSpVtPJ3A&s",
+            "description": "Master SEO for higher website ranking",
+            "category": "SEO Optimization"
+        },
+        {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmcv9oNdusDkbk7KD-voxO6-ivBR6pL9JbBg&s",
+            "description": "Social media marketing strategies",
+            "category": "Social Media Marketing"
+        }
+    ],
+    "history_and_culture": [
+        {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWwrLGxwVYHzciQvKiSA1ov8KT-pGDHJ5oyA&s",
+            "description": "Explore ancient civilizations and their influence",
+            "category": "Ancient Civilizations"
+        },
+        {
+            "url": "https://i.ytimg.com/vi/-GsolnXOiBg/hqdefault.jpg",
+            "description": "Major events of World War I & II",
+            "category": "World Wars"
+        }
+    ],
+            "travel_and_adventure": [
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgeSd-g5diNwCpun76-OAsmqzlwxaAhxOmzQ&s",
+                    "description": "Top travel destinations to visit",
+                    "category": "Travel Destinations"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBnnK-M07zJISm84f649z0GwcOvaa0fnuRkw&s",
+                    "description": "Guide to budget backpacking",
+                    "category": "Backpacking"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvRwMNV8I-ZUofUIvygcLMFoV_B-vmucnr-A&s",
+                    "description": "Best places for adventure sports",
+                    "category": "Adventure Sports"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxfNOuTv_pL9bEIlsjkh95pVTwoREMUcW6e1hgUBqkzkt3Nljo_MctspRa3eX_fLY5Fuw&usqp=CAU",
+                    "description": "Experience different cultures while traveling",
+                    "category": "Cultural Travel"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAjfcX8aGRaXY1AEiFe6ZABvZ_7d4uD3GeoA&s",
+                    "description": "Sustainable travel and ecotourism",
+                    "category": "Ecotourism"
+                }
+            ],
+            "cooking_and_recipes": [
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQOzvF6-K5416S_ee4XFYbEprD9HzrX3jJeQ&ss",
+                    "description": "Delicious vegan recipes",
+                    "category": "Vegan Cooking"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTULiKYO3QGeYTpJqClzu1DowRH0WaQsfV07A&s",
+                    "description": "Learn to make amazing desserts",
+                    "category": "Desserts"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT30uK2w2X0s6ogVbo3lA8yqkI93WzJpccigg&s",
+                    "description": "Guide to healthy eating",
+                    "category": "Healthy Eating"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzWagBmJe5Fi3wC2gV0526jWRPClmVOZXwMg&s",
+                    "description": "Essential baking tips and recipes",
+                    "category": "Baking"
+                }
+            ],
+            "cybersecurity": [
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXuwPyxpUocXNelROwid6yPvrARNdXDc5_ug&s",
+                    "description": "Learn ethical hacking fundamentals",
+                    "category": "Ethical Hacking"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXuwPyxpUocXNelROwid6yPvrARNdXDc5_ug&s",
+                    "description": "Guide to securing networks",
+                    "category": "Network Security"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXuwPyxpUocXNelROwid6yPvrARNdXDc5_ug&s",
+                    "description": "Understanding malware threats",
+                    "category": "Malware Analysis"
+                },
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZEZQBP4Q9rOFbW62wcNJbnC3dX-4DfvX9pg&s",
+                    "description": "Basics of cryptography in security",
+                    "category": "Cryptography"
+                }
+            ],
+                "self_improvement": [
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZEZQBP4Q9rOFbW62wcNJbnC3dX-4DfvX9pg&s",
+                        "description": "Best morning routines for success",
+                        "category": "Productivity"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZEZQBP4Q9rOFbW62wcNJbnC3dX-4DfvX9pg&s",
+                        "description": "How to build lasting habits",
+                        "category": "Habits"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZEZQBP4Q9rOFbW62wcNJbnC3dX-4DfvX9pg&s",
+                        "description": "Easy mindfulness practices",
+                        "category": "Mindfulness"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZEZQBP4Q9rOFbW62wcNJbnC3dX-4DfvX9pg&s",
+                        "description": "Time management techniques",
+                        "category": "Time Management"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZEZQBP4Q9rOFbW62wcNJbnC3dX-4DfvX9pg&s",
+                        "description": "Ways to boost self-confidence",
+                        "category": "Confidence"
+                    }
+                ],
+                "relationships": [
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuIq2qgyYuaUj4toUKCJrkOQguhqsZmkF0eA&s",
+                        "description": "Keys to a healthy relationship",
+                        "category": "Love & Dating"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ50sMvIWtWP8AxXj08yfDopiuMGmUuimpPHA&s",
+                        "description": "Ways to strengthen family bonds",
+                        "category": "Family"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ50sMvIWtWP8AxXj08yfDopiuMGmUuimpPHA&s",
+                        "description": "How to maintain strong friendships",
+                        "category": "Friendships"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgKoBbZ9stTW3w48RufNCwB9Vk_CDIW0MDUQ&s",
+                        "description": "Making long-distance relationships work",
+                        "category": "Long-Distance"
+                    }
+                ],
+            "entertainment": [
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4xoOdGYmnxIrxQJn9MjDGLRO8jIu8hkXUHg&s",
+                        "description": "Must-watch movies of all time",
+                        "category": "Movies"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4xoOdGYmnxIrxQJn9MjDGLRO8jIu8hkXUHg&s",
+                        "description": "Top TV series to binge-watch",
+                        "category": "TV Shows"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe_pYcgQdha_N3nvBiX8nHVKQCGizrZCMXEw&s",
+                        "description": "Best music playlists for every mood",
+                        "category": "Music"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe_pYcgQdha_N3nvBiX8nHVKQCGizrZCMXEw&s",
+                        "description": "Top books to read this year",
+                        "category": "Books"
+                    },
+                    {
+                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe_pYcgQdha_N3nvBiX8nHVKQCGizrZCMXEw&s",
+                        "description": "Best podcasts to listen to",
+                        "category": "Podcasts"
+                    }
+                ],
+        
+                    "domestic_animals": [
+                        {
+                            "url": "https://example.com/dog.jpg",
+                            "description": "Dogs: Loyal companions and their behavior",
+                            "category": "Pets"
+                        },
+                        {
+                            "url": "https://example.com/cat.jpg",
+                            "description": "Cats and their independent nature",
+                            "category": "Pets"
+                        },
+                        {
+                            "url": "https://example.com/cow.jpg",
+                            "description": "The role of cows in agriculture and dairy production",
+                            "category": "Farm Animals"
+                        },
+                        {
+                            "url": "https://example.com/horse.jpg",
+                            "description": "The history of horses in human civilization",
+                            "category": "Farm Animals"
+                        },
+                        {
+                            "url": "https://example.com/goat.jpg",
+                            "description": "How goats adapt to different environments",
+                            "category": "Farm Animals"
+                        },
+                        {
+                            "url": "https://example.com/sheep.jpg",
+                            "description": "The importance of sheep in wool production",
+                            "category": "Farm Animals"
+                        }
+                    ],
+                    "wild_animals": [
+                        {
+                            "url": "https://example.com/lion.jpg",
+                            "description": "The king of the jungle and its hunting techniques",
+                            "category": "Big Cats"
+                        },
+                        {
+                            "url": "https://example.com/tiger.jpg",
+                            "description": "Tigers and their solitary hunting style",
+                            "category": "Big Cats"
+                        },
+                        {
+                            "url": "https://example.com/elephant.jpg",
+                            "description": "Elephants and their strong social bonds",
+                            "category": "Large Mammals"
+                        },
+                        {
+                            "url": "https://example.com/wolf.jpg",
+                            "description": "The pack hierarchy of wolves",
+                            "category": "Wild Canines"
+                        },
+                        {
+                            "url": "https://example.com/deer.jpg",
+                            "description": "Deer survival strategies in the wild",
+                            "category": "Herbivores"
+                        },
+                        {
+                            "url": "https://example.com/giraffe.jpg",
+                            "description": "Giraffes and their unique long necks",
+                            "category": "Herbivores"
+                        },
+                        {
+                            "url": "https://example.com/bear.jpg",
+                            "description": "How bears prepare for hibernation",
+                            "category": "Large Mammals"
+                        },
+                        {
+                            "url": "https://example.com/fox.jpg",
+                            "description": "Foxes and their adaptive survival skills",
+                            "category": "Wild Canines"
+                        },
+                        {
+                            "url": "https://example.com/crocodile.jpg",
+                            "description": "The ancient predators: crocodiles",
+                            "category": "Reptiles"
+                        },
+                        {
+                            "url": "https://example.com/cheetah.jpg",
+                            "description": "Cheetahs: The fastest land animals",
+                            "category": "Big Cats"
+                        }
+                    ],
+                    "birds": [
+                        {
+                            "url": "https://example.com/eagle.jpg",
+                            "description": "How eagles hunt their prey",
+                            "category": "Birds of Prey"
+                        },
+                        {
+                            "url": "https://example.com/peacock.jpg",
+                            "description": "The beauty and significance of peacocks",
+                            "category": "Colorful Birds"
+                        },
+                        {
+                            "url": "https://example.com/parrot.jpg",
+                            "description": "The intelligence and mimicry skills of parrots",
+                            "category": "Domestic Birds"
+                        },
+                        {
+                            "url": "https://example.com/owl.jpg",
+                            "description": "Owls and their night vision",
+                            "category": "Nocturnal Birds"
+                        },
+                        {
+                            "url": "https://example.com/pigeon.jpg",
+                            "description": "Pigeons and their homing abilities",
+                            "category": "Urban Birds"
+                        }
+                    ],
+                    "insects": [
+                        {
+                            "url": "https://example.com/ant.jpg",
+                            "description": "The teamwork and communication of ants",
+                            "category": "Colony Insects"
+                        },
+                        {
+                            "url": "https://example.com/butterfly.jpg",
+                            "description": "How butterflies transform from caterpillars",
+                            "category": "Pollinators"
+                        },
+                        {
+                            "url": "https://example.com/spider.jpg",
+                            "description": "The web-weaving skills of spiders",
+                            "category": "Arachnids"
+                        },
+                        {
+                            "url": "https://example.com/beetle.jpg",
+                            "description": "The armored world of beetles",
+                            "category": "Hard-Shelled Insects"
+                        }
+                    ],
+                    "nature": [
+                        {
+                            "url": "https://example.com/forest.jpg",
+                            "description": "The importance of rainforests for biodiversity",
+                            "category": "Forests"
+                        },
+                        {
+                            "url": "https://example.com/mountain.jpg",
+                            "description": "How mountains are formed",
+                            "category": "Geology"
+                        },
+                        {
+                            "url": "https://example.com/river.jpg",
+                            "description": "The journey of a river from source to sea",
+                            "category": "Water Bodies"
+                        },
+                        {
+                            "url": "https://example.com/desert.jpg",
+                            "description": "Life adaptations in desert environments",
+                            "category": "Extreme Climates"
+                        }
+                    ],
+                    "reptiles": [
+                        {
+                            "url": "https://example.com/snake.jpg",
+                            "description": "Venomous vs. non-venomous snakes",
+                            "category": "Snakes"
+                        },
+                        {
+                            "url": "https://example.com/crocodile.jpg",
+                            "description": "The ancient predators: crocodiles",
+                            "category": "Large Reptiles"
+                        },
+                        {
+                            "url": "https://example.com/lizard.jpg",
+                            "description": "The camouflaging skills of lizards",
+                            "category": "Small Reptiles"
+                        },
+                        {
+                            "url": "https://example.com/turtle.jpg",
+                            "description": "Why turtles live so long",
+                            "category": "Turtles & Tortoises"
+                        }
+                    ],
+                    "mammals": [
+                        {
+                            "url": "https://example.com/monkey.jpg",
+                            "description": "The intelligence of monkeys",
+                            "category": "Primates"
+                        },
+                        {
+                            "url": "https://example.com/bear.jpg",
+                            "description": "How bears prepare for hibernation",
+                            "category": "Large Mammals"
+                        },
+                        {
+                            "url": "https://example.com/dolphin.jpg",
+                            "description": "The communication skills of dolphins",
+                            "category": "Marine Mammals"
+                        }
+                    ],
+                    "fishes": [
+                        {
+                            "url": "https://example.com/shark.jpg",
+                            "description": "The hunting tactics of sharks",
+                            "category": "Predatory Fishes"
+                        },
+                        {
+                            "url": "https://example.com/clownfish.jpg",
+                            "description": "Clownfish and their symbiotic relationship",
+                            "category": "Coral Reef Fishes"
+                        },
+                        {
+                            "url": "https://example.com/salmon.jpg",
+                            "description": "The incredible migration of salmon",
+                            "category": "Freshwater Fishes"
+                        },
+                        {
+                            "url": "https://example.com/seahorse.jpg",
+                            "description": "Why seahorses are unique",
+                            "category": "Unusual Fishes"
+                        }
+                    ],
+                    "aquatic": [
+                        {
+                            "url": "https://example.com/octopus.jpg",
+                            "description": "The intelligence of octopuses",
+                            "category": "Cephalopods"
+                        },
+                        {
+                            "url": "https://example.com/jellyfish.jpg",
+                            "description": "The fascinating life cycle of jellyfish",
+                            "category": "Cnidarians"
+                        },
+                        {
+                            "url": "https://example.com/whale.jpg",
+                            "description": "The majestic journey of whales",
+                            "category": "Marine Mammals"
+                        },
+                        {
+                            "url": "https://example.com/starfish.jpg",
+                            "description": "How starfish regenerate lost limbs",
+                            "category": "Echinoderms"
+                        }
+                    ]
+                }
