@@ -6,12 +6,12 @@
             "category": "Supplements"
         },
         {
-            "url": "https://m.media-amazon.com/images/I/413JJey+suL.AC.jpg",
+            "url": "https://m.media-amazon.com/images/I/413JJey+suL._AC_.jpg",
             "description": "High-quality yoga mat",
             "category": "Fitness"
         },
         {
-            "url": "https://m.media-amazon.com/images/I/71-qOprKrIL.AC_UF1000,1000_QL80.jpg",
+            "url": "https://m.media-amazon.com/images/I/71-qOprKrIL._AC_UF1000,1000_QL80_.jpg",
             "description": "Digital blood pressure monitor",
             "category": "Medical"
         },
@@ -256,7 +256,7 @@
                         "category": "Long-Distance"
                     }
                 ],
-            "entertainment": [
+                "entertainment": [
                     {
                         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4xoOdGYmnxIrxQJn9MjDGLRO8jIu8hkXUHg&s",
                         "description": "Must-watch movies of all time",
@@ -283,243 +283,495 @@
                         "category": "Podcasts"
                     }
                 ],
-        
-                    "domestic_animals": [
-                        {
-                            "url": "https://example.com/dog.jpg",
-                            "description": "Dogs: Loyal companions and their behavior",
-                            "category": "Pets"
-                        },
-                        {
-                            "url": "https://example.com/cat.jpg",
-                            "description": "Cats and their independent nature",
-                            "category": "Pets"
-                        },
-                        {
-                            "url": "https://example.com/cow.jpg",
-                            "description": "The role of cows in agriculture and dairy production",
-                            "category": "Farm Animals"
-                        },
-                        {
-                            "url": "https://example.com/horse.jpg",
-                            "description": "The history of horses in human civilization",
-                            "category": "Farm Animals"
-                        },
-                        {
-                            "url": "https://example.com/goat.jpg",
-                            "description": "How goats adapt to different environments",
-                            "category": "Farm Animals"
-                        },
-                        {
-                            "url": "https://example.com/sheep.jpg",
-                            "description": "The importance of sheep in wool production",
-                            "category": "Farm Animals"
-                        }
-                    ],
-                    "wild_animals": [
-                        {
-                            "url": "https://example.com/lion.jpg",
-                            "description": "The king of the jungle and its hunting techniques",
-                            "category": "Big Cats"
-                        },
-                        {
-                            "url": "https://example.com/tiger.jpg",
-                            "description": "Tigers and their solitary hunting style",
-                            "category": "Big Cats"
-                        },
-                        {
-                            "url": "https://example.com/elephant.jpg",
-                            "description": "Elephants and their strong social bonds",
-                            "category": "Large Mammals"
-                        },
-                        {
-                            "url": "https://example.com/wolf.jpg",
-                            "description": "The pack hierarchy of wolves",
-                            "category": "Wild Canines"
-                        },
-                        {
-                            "url": "https://example.com/deer.jpg",
-                            "description": "Deer survival strategies in the wild",
-                            "category": "Herbivores"
-                        },
-                        {
-                            "url": "https://example.com/giraffe.jpg",
-                            "description": "Giraffes and their unique long necks",
-                            "category": "Herbivores"
-                        },
-                        {
-                            "url": "https://example.com/bear.jpg",
-                            "description": "How bears prepare for hibernation",
-                            "category": "Large Mammals"
-                        },
-                        {
-                            "url": "https://example.com/fox.jpg",
-                            "description": "Foxes and their adaptive survival skills",
-                            "category": "Wild Canines"
-                        },
-                        {
-                            "url": "https://example.com/crocodile.jpg",
-                            "description": "The ancient predators: crocodiles",
-                            "category": "Reptiles"
-                        },
-                        {
-                            "url": "https://example.com/cheetah.jpg",
-                            "description": "Cheetahs: The fastest land animals",
-                            "category": "Big Cats"
-                        }
-                    ],
-                    "birds": [
-                        {
-                            "url": "https://example.com/eagle.jpg",
-                            "description": "How eagles hunt their prey",
-                            "category": "Birds of Prey"
-                        },
-                        {
-                            "url": "https://example.com/peacock.jpg",
-                            "description": "The beauty and significance of peacocks",
-                            "category": "Colorful Birds"
-                        },
-                        {
-                            "url": "https://example.com/parrot.jpg",
-                            "description": "The intelligence and mimicry skills of parrots",
-                            "category": "Domestic Birds"
-                        },
-                        {
-                            "url": "https://example.com/owl.jpg",
-                            "description": "Owls and their night vision",
-                            "category": "Nocturnal Birds"
-                        },
-                        {
-                            "url": "https://example.com/pigeon.jpg",
-                            "description": "Pigeons and their homing abilities",
-                            "category": "Urban Birds"
-                        }
-                    ],
-                    "insects": [
-                        {
-                            "url": "https://example.com/ant.jpg",
-                            "description": "The teamwork and communication of ants",
-                            "category": "Colony Insects"
-                        },
-                        {
-                            "url": "https://example.com/butterfly.jpg",
-                            "description": "How butterflies transform from caterpillars",
-                            "category": "Pollinators"
-                        },
-                        {
-                            "url": "https://example.com/spider.jpg",
-                            "description": "The web-weaving skills of spiders",
-                            "category": "Arachnids"
-                        },
-                        {
-                            "url": "https://example.com/beetle.jpg",
-                            "description": "The armored world of beetles",
-                            "category": "Hard-Shelled Insects"
-                        }
-                    ],
-                    "nature": [
-                        {
-                            "url": "https://example.com/forest.jpg",
-                            "description": "The importance of rainforests for biodiversity",
-                            "category": "Forests"
-                        },
-                        {
-                            "url": "https://example.com/mountain.jpg",
-                            "description": "How mountains are formed",
-                            "category": "Geology"
-                        },
-                        {
-                            "url": "https://example.com/river.jpg",
-                            "description": "The journey of a river from source to sea",
-                            "category": "Water Bodies"
-                        },
-                        {
-                            "url": "https://example.com/desert.jpg",
-                            "description": "Life adaptations in desert environments",
-                            "category": "Extreme Climates"
-                        }
-                    ],
-                    "reptiles": [
-                        {
-                            "url": "https://example.com/snake.jpg",
-                            "description": "Venomous vs. non-venomous snakes",
-                            "category": "Snakes"
-                        },
-                        {
-                            "url": "https://example.com/crocodile.jpg",
-                            "description": "The ancient predators: crocodiles",
-                            "category": "Large Reptiles"
-                        },
-                        {
-                            "url": "https://example.com/lizard.jpg",
-                            "description": "The camouflaging skills of lizards",
-                            "category": "Small Reptiles"
-                        },
-                        {
-                            "url": "https://example.com/turtle.jpg",
-                            "description": "Why turtles live so long",
-                            "category": "Turtles & Tortoises"
-                        }
-                    ],
-                    "mammals": [
-                        {
-                            "url": "https://example.com/monkey.jpg",
-                            "description": "The intelligence of monkeys",
-                            "category": "Primates"
-                        },
-                        {
-                            "url": "https://example.com/bear.jpg",
-                            "description": "How bears prepare for hibernation",
-                            "category": "Large Mammals"
-                        },
-                        {
-                            "url": "https://example.com/dolphin.jpg",
-                            "description": "The communication skills of dolphins",
-                            "category": "Marine Mammals"
-                        }
-                    ],
-                    "fishes": [
-                        {
-                            "url": "https://example.com/shark.jpg",
-                            "description": "The hunting tactics of sharks",
-                            "category": "Predatory Fishes"
-                        },
-                        {
-                            "url": "https://example.com/clownfish.jpg",
-                            "description": "Clownfish and their symbiotic relationship",
-                            "category": "Coral Reef Fishes"
-                        },
-                        {
-                            "url": "https://example.com/salmon.jpg",
-                            "description": "The incredible migration of salmon",
-                            "category": "Freshwater Fishes"
-                        },
-                        {
-                            "url": "https://example.com/seahorse.jpg",
-                            "description": "Why seahorses are unique",
-                            "category": "Unusual Fishes"
-                        }
-                    ],
-                    "aquatic": [
-                        {
-                            "url": "https://example.com/octopus.jpg",
-                            "description": "The intelligence of octopuses",
-                            "category": "Cephalopods"
-                        },
-                        {
-                            "url": "https://example.com/jellyfish.jpg",
-                            "description": "The fascinating life cycle of jellyfish",
-                            "category": "Cnidarians"
-                        },
-                        {
-                            "url": "https://example.com/whale.jpg",
-                            "description": "The majestic journey of whales",
-                            "category": "Marine Mammals"
-                        },
-                        {
-                            "url": "https://example.com/starfish.jpg",
-                            "description": "How starfish regenerate lost limbs",
-                            "category": "Echinoderms"
-                        }
-                    ]
-                }
+                "nature_and_environment": [
+                            {
+                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi2lLQLe9PcJDB4GgX2qBELvlQlub1-xchow&s",
+                                "description": "Explore the most beautiful national parks in the world.",
+                                "category": "National Parks"
+                            },
+                            {
+                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr4vwa5bKwb56zoD125ASz_vw3nAelHOCTXQ&s",
+                                "description": "Discover the importance of rainforests and their biodiversity.",
+                                "category": "Rainforests"
+                            },
+                            {
+                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr4vwa5bKwb56zoD125ASz_vw3nAelHOCTXQ&s",
+                                "description": "How to protect marine life and keep our oceans clean.",
+                                "category": "Ocean Conservation"
+                            },
+                            {
+                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr4vwa5bKwb56zoD125ASz_vw3nAelHOCTXQ&s",
+                                "description": "The diverse life found in mountain regions.",
+                                "category": "Mountain Ecosystems"
+                            }
+                        ],
+                            "seasons": [
+                                {
+                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLfQHp9TAE_jVDKg0tZ_vff2f5U7QMIJKfNA&s",
+                                    "description": "The beauty of spring and its impact on nature.",
+                                    "category": "Spring"
+                                },
+                                {
+                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VDPKdOUYTIAGwvUmxF12u5zBC1QqYuVx4w&s",
+                                    "description": "Why summer is the best time for vacations and outdoor fun.",
+                                    "category": "Summer"
+                                },
+                                {
+                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VDPKdOUYTIAGwvUmxF12u5zBC1QqYuVx4w&s",
+                                    "description": "The magic of autumn leaves and seasonal changes.",
+                                    "category": "Autumn"
+                                },
+                                {
+                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VDPKdOUYTIAGwvUmxF12u5zBC1QqYuVx4w&s",
+                                    "description": "How winter transforms landscapes and brings festivities.",
+                                    "category": "Winter"
+                                },
+                                {
+                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VDPKdOUYTIAGwvUmxF12u5zBC1QqYuVx4w&s",
+                                    "description": "The importance of monsoon rains for the environment.",
+                                    "category": "Monsoon"
+                                }
+                            ],
+                                "foods": [
+                                    {
+                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VDPKdOUYTIAGwvUmxF12u5zBC1QqYuVx4w&s",
+                                        "description": "The health benefits of eating fresh fruits.",
+                                        "category": "Fruits"
+                                    },
+                                    {
+                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VDPKdOUYTIAGwvUmxF12u5zBC1QqYuVx4w&s",
+                                        "description": "Why vegetables are essential for a balanced diet.",
+                                        "category": "Vegetables"
+                                    },
+                                    {
+                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VDPKdOUYTIAGwvUmxF12u5zBC1QqYuVx4w&s",
+                                        "description": "Nutritional value and benefits of dairy products.",
+                                        "category": "Dairy"
+                                    },
+                                    {
+                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVxB3JEESptPZyP902vjSyuxq5Hc6y-jbF5A&s",
+                                        "description": "Best sources of protein for a healthy lifestyle.",
+                                        "category": "Proteins"
+                                    },
+                                    {
+                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVxB3JEESptPZyP902vjSyuxq5Hc6y-jbF5A&s",
+                                        "description": "The importance of whole grains in daily meals.",
+                                        "category": "Grains"
+                                    }
+                                ],
+                                    "wonders": [
+                                        {
+                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVxB3JEESptPZyP902vjSyuxq5Hc6y-jbF5A&s",
+                                            "description": "Explore the history of the Great Wall of China.",
+                                            "category": "Great Wall of China"
+                                        },
+                                        
+                                        {
+                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE7aGW20reqdFbUzSoLJ1AyFpgbPcLgc9MZQ&s",
+                                            "description": "Unravel the mysteries of the Pyramids of Giza.",
+                                            "category": "Pyramids of Giza"
+                                        },
+                                        {
+                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE7aGW20reqdFbUzSoLJ1AyFpgbPcLgc9MZQ&s",
+                                            "description": "The breathtaking beauty and history of the Taj Mahal.",
+                                            "category": "Taj Mahal"
+                                        }
+                                    ],
+                                        "farming": [
+                                            {
+                                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHFI5j4w_J5GsOVKOIrw6qP1wFyezN_Edz-g&s",
+                                                "description": "A comprehensive guide to organic farming methods.",
+                                                "category": "Organic Farming"
+                                            },
+                                            {
+                                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs96pjHg6XMQkTCOsLTDBshUNAWz9Fa1gIOA&s",
+                                                "description": "Understanding agroforestry and its benefits.",
+                                                "category": "Agroforestry"
+                                            },
+                                            {
+                                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMW-pxX4ws6t-TnLaIo_7h2hMmDA7kouCNdg&s",
+                                                "description": "How hydroponic farming works and its future.",
+                                                "category": "Hydroponic Farming"
+                                            },
+                                            {
+                                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBLJqqU-FuOd65nhVBcmFCYWSVeQ9OdTi0hQk-tlioY9CPt0CdaHgD0ZUPUImP59bxS0U&usqp=CAU",
+                                                "description": "Best practices for efficient and sustainable dairy farming.",
+                                                "category": "Dairy Farming"
+                                            },
+                                            {
+                                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXml7RN-ceti0ybymknrSP2-yEmTgYqKuYHg&s",
+                                                "description": "Understanding nitrogen fertilizers and their role in farming.",
+                                                "category": "Crop Fertilization"
+                                            }
+                                        ],
+                                            "farm_tools": [
+                                                
+                                                {
+                                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2w67-LSBPK7waPsUP9NaQLMzumoiG_Cb7pg&s",
+                                                    "description": "Latest tractors and farm machinery available for sale.",
+                                                    "category": "Tractors"
+                                                },
+                                                {
+                                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtS8Hyg-z_s2eCJBOt1bm4-f3HLCFmHbWwQg&s",
+                                                    "description": "A guide to modern irrigation systems for efficient water use.",
+                                                    "category": "Irrigation Systems"
+                                                },
+                                                
+                                                {
+                                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFgylYg7V3kd9W2T3Pr8rDc0syBSF-jsOvwQ&s",
+                                                    "description": "Different types of harvesting machinery and their uses.",
+                                                    "category": "Harvesting Equipment"
+                                                },
+                                                {
+                                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnnUHS5ocEwZ3hQQBfd-atZmfMdT0U3vvhgg&s",
+                                                    "description": "Top hand tools every small farm owner should have.",
+                                                    "category": "Hand Tools"
+                                                },
+                                                {
+                                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr97Y1bPn7kgVBMGI1lt3vq8-D2C2eQGy2dA&s",
+                                                    "description": "How drones are used in precision agriculture.",
+                                                    "category": "Agricultural Drones"
+                                                }
+                                            ],
+                                            
+                                                "design_tools": [
+                                                    {
+                                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtCRdIGN0SRawOeKyKdDJPJkr9cYoC4qu4hA&s",
+                                                        "description": "Industry-standard software for photo editing and digital design.",
+                                                        "category": "Adobe Photoshop"
+                                                    },
+                                                    {
+                                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMYXZ77XbsQSh0NoepDiy1LAdzfE2rrOR2Rg&s",
+                                                        "description": "A collaborative interface design tool for UI/UX design.",
+                                                        "category": "Figma"
+                                                    },
+                                                    {
+                                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNF0hcv2DEhEu3kRTlCRQzBNHb2-iN7rtILA&s",
+                                                        "description": "Online design tool for creating social media posts, presentations, and more.",
+                                                        "category": "Canva"
+                                                    },
+                                                    {
+                                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtiS61Ptop3XcsriM5vS2SbhpH7TGRD0aoBw&s",
+                                                        "description": "Open-source 3D modeling, animation, and rendering software.",
+                                                        "category": "Blender"
+                                                    },
+                                                    {
+                                                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQzRJ67XvbEmErZBJWo00znlCbcRkh-A6DXw&s",
+                                                        "description": "Graphic design software for illustration, layout.",
+                                                        "category": "Unity"
+                                                    }
+                                                ],
+                                                    "domestic_animals": [
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN2z0ERwXQUqH29urPuzWueLXKhJAY6SMyAA&s",
+                                                            "description": "Dogs: Loyal companions and their behavior",
+                                                            "category": "Pets"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ-Byucg5USQVPO48-5RS5AeQt8borxg4DqQ&s",
+                                                            "description": "Cats and their independent nature",
+                                                            "category": "Pets"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS4LKYx3t9wCKfn3DIRuxJB7-biALX_vle8w&s",
+                                                            "description": "The role of cows in agriculture and dairy production",
+                                                            "category": "Farm Animals"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgx3CHJRKdMGgow7XpxvWc4h_yadxjpsNngQ&s",
+                                                            "description": "How goats adapt to different environments",
+                                                            "category": "Farm Animals"
+                                                        }
+                                                    ],
+                                                    "wild_animals": [
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsOUAH8bNWEa4F5EKFde_6gJYjxvCZVw1Fw&s",
+                                                            "description": "The king of the jungle and its hunting techniques",
+                                                            "category": "Big Cats"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk5vCGl6ek6IzjLVDshwKm3r0Q8aG-1V7BDg&s",
+                                                            "description": "Tigers and their solitary hunting style",
+                                                            "category": "Big Cats"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRn6zlyspSc9I6Uub5Z1XsufJLwgY-WchQlA&s",
+                                                            "description": "Elephants and their strong social bonds",
+                                                            "category": "Large Mammals"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ08v06969wqgS3w8fjJyCVwfjEutH2JNwtLQ&s",
+                                                            "description": "The pack hierarchy of wolves",
+                                                            "category": "Wild Canines"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2PYSKxT5Sf4T3HJd9g4KWxLzTWCGBwpMyg&s",
+                                                            "description": "Deer survival strategies in the wild",
+                                                            "category": "Herbivores"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZUkc-mBbufEK9IGKkrkjEwX0V3jH_eFX1g&s",
+                                                            "description": "How bears prepare for hibernation",
+                                                            "category": "Large Mammals"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmX2JveDXAx3pTqXKDYl7XUDtRl9NpqdKzvQ&s",
+                                                            "description": "The ancient predators: crocodiles",
+                                                            "category": "Reptiles"
+                                                        }
+                                                    ],
+                                                    "birds": [
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4GeWg-CR4xHnvksQc_1fR6xYBQ73KK3Mtzg&s",
+                                                            "description": "How eagles hunt their prey",
+                                                            "category": "Birds of Prey"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmLhgAVjnoc8c4i7Qzj5oQCjEZDAEjtLDxGw&s",
+                                                            "description": "The beauty and significance of peacocks",
+                                                            "category": "Colorful Birds"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2YPcyTIwY6TLMX6qAgpqZ47gOV_zGbtH7wA&s",
+                                                            "description": "The intelligence and mimicry skills of parrots",
+                                                            "category": "Domestic Birds"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2YPcyTIwY6TLMX6qAgpqZ47gOV_zGbtH7wA&s",
+                                                            "description": "Owls and their night vision",
+                                                            "category": "Nocturnal Birds"
+                                                        }
+                                                    ],
+                                                    "insects": [
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSKdG1fA6GD4nXPOxCQ0kGM1z1CYZIlAaiAQ&s",
+                                                            "description": "The teamwork and communication of ants",
+                                                            "category": "Colony Insects"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMWsLAREn76QCDKqtTPBd5bkn5kSVVhNwOQw&s",
+                                                            "description": "How butterflies transform from caterpillars",
+                                                            "category": "Pollinators"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpNFbAxOqciv_GtX102XigDl6TDMJLb9yM-g&s",
+                                                            "description": "The web-weaving skills of spiders",
+                                                            "category": "Arachnids"
+                                                        }
+                                                    ],
+                                                    "nature": [
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd_NJBRwlSQDsewF0oex0dfLLxHON0X-_xuw&s",
+                                                            "description": "The importance of rainforests for biodiversity",
+                                                            "category": "Forests"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWu2HF_TEyKcUX6JiovCSGscIRajSzKwiVyg&s",
+                                                            "description": "How mountains are formed",
+                                                            "category": "Geology"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPbFmlqLOeBqKxbilCesyEwXbYtTx5Hcr2A&s",
+                                                            "description": "The journey of a river from source to sea",
+                                                            "category": "Water Bodies"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhjpRPiK95CCSEWp-e57erMccav1JWU9gH6Q&s",
+                                                            "description": "Life adaptations in desert environments",
+                                                            "category": "Extreme Climates"
+                                                        }
+                                                    ],
+                                                    "reptiles": [
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfbC7taWyLeJnMOhtQPaxFnInkVX81wxSIOA&s",
+                                                            "description": "Venomous vs. non-venomous snakes",
+                                                            "category": "Snakes"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF1baH8cuoohOxUOAuR9NMwk0uQATwGjP5PQ&s",
+                                                            "description": "The camouflaging skills of lizards",
+                                                            "category": "Small Reptiles"
+                                                        }
+                                                    ],
+                                                    "mammals": [
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeo-v7sZQ9DzzBgeJr4IcnxJB0OspWL7fU-g&s",
+                                                            "description": "The intelligence of monkeys",
+                                                            "category": "Primates"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Z7LVk8eSGBgNalUVd160E6FLTc2_-1tWww&s",
+                                                            "description": "The communication skills of dolphins",
+                                                            "category": "Marine Mammals"
+                                                        }
+                                                    ],
+                                                    "fishes": [
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdHijInxkTQSllUlPFJY1JTPBbn2DEf5eug&s",
+                                                            "description": "The hunting tactics of sharks",
+                                                            "category": "Predatory Fishes"
+                                                        },
+                                                        {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0UdB_yh2npJxhNYxxNVPKsAbMlSG-ha636w&s",
+                                                            "description": "Clownfish and their symbiotic relationship",
+                                                            "category": "Coral Reef Fishes"
+                                                        }
+                                                    ],
+                                                        "natural_disasters": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnp8TCpZPUCXwVvQbfVWQWlmqgLwZVjg6faw&s",
+                                                            "description": "A massive earthquake shaking the city",
+                                                            "category": "Earthquake"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBRfAeA3cE-Ojq78Vm5T0DtR01WlQgjILbw&s",
+                                                            "description": "Flooded streets after a heavy storm",
+                                                            "category": "Flood"
+                                                          }
+                                                        ],
+                                                        "army": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WySRdpemZcveohSNpP-TEZLH_bZirPERNw&s",
+                                                            "description": "A powerful army tank in battle",
+                                                            "category": "Tanks"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgOwh3DY1OvubMdjNgle0bMqnkCsve5e0OTg&s",
+                                                            "description": "Army soldiers marching in formation",
+                                                            "category": "Soldiers"
+                                                          }
+                                                        ],
+                                                        "submarine": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMXyrxM9NODNzgypEPxXmU8foPbpyy4VxBnw&s",
+                                                            "description": "A deep-sea military submarine",
+                                                            "category": "Military Submarine"
+                                                          }
+                                                        ],
+                                                        "clothing": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYaNCgMznbU-i9af0cUeR0UHAVIRqm8QNPiA&s",
+                                                            "description": "A stylish formal shirt",
+                                                            "category": "Shirt"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYaNCgMznbU-i9af0cUeR0UHAVIRqm8QNPiA&s",
+                                                            "description": "A pair of comfortable pants",
+                                                            "category": "Pant"
+                                                          }
+                                                        ],
+                                                        "fashion_items": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYaNCgMznbU-i9af0cUeR0UHAVIRqm8QNPiA&s",
+                                                            "description": "A luxury wristwatch",
+                                                            "category": "Watch"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYaNCgMznbU-i9af0cUeR0UHAVIRqm8QNPiA&s",
+                                                            "description": "High-quality running shoes",
+                                                            "category": "Shoes"
+                                                          }
+                                                        ],
+                                                        "cosmetics": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn93UQ63-ptT5GPI3CJqhnPofzwU4z4eE5lQ&s",
+                                                            "description": "A premium lipstick",
+                                                            "category": "Lipstick"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn93UQ63-ptT5GPI3CJqhnPofzwU4z4eE5lQ&s",
+                                                            "description": "A bottle of designer perfume",
+                                                            "category": "Perfume"
+                                                          }
+                                                        ],
+                                                        "toys": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn93UQ63-ptT5GPI3CJqhnPofzwU4z4eE5lQ&s",
+                                                            "description": "A soft teddy bear",
+                                                            "category": "Soft Toys"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn93UQ63-ptT5GPI3CJqhnPofzwU4z4eE5lQ&s",
+                                                            "description": "Superhero action figure",
+                                                            "category": "Action Figures"
+                                                          }
+                                                        ],
+                                                        "electronics": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzgSKoQN8ue-fjufTjm-hfQMSMc4m3w-5gcQ&s",
+                                                            "description": "Latest model smartphone",
+                                                            "category": "Smartphones"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDwOC6_XLG0gr4PCKqb1CzYd1SzD6yb39CkA&s",
+                                                            "description": "Latest model laptop",
+                                                            "category": "Laptop"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8P-gj3fDnuzzXlONNF4i4oiWB29JhpXhVwA&s",
+                                                            "description": "4K Ultra HD Smart TV",
+                                                            "category": "Televisions"
+                                                          }
+                                                        ],
+                                                        "bed_furniture": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8P-gj3fDnuzzXlONNF4i4oiWB29JhpXhVwA&s",
+                                                            "description": "A king-sized bed with storage",
+                                                            "category": "Bed"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j1yvGWp08Ph-Ic3e4asmkAQwwFHhLA-Rbw&s",
+                                                            "description": "A comfortable lounge chair",
+                                                            "category": "Chair"
+                                                          }
+                                                        ],
+                                                        "bags": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j1yvGWp08Ph-Ic3e4asmkAQwwFHhLA-Rbw&s",
+                                                            "description": "A durable hiking backpack",
+                                                            "category": "Backpack"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j1yvGWp08Ph-Ic3e4asmkAQwwFHhLA-Rbw&s",
+                                                            "description": "A stylish designer handbag",
+                                                            "category": "Handbag"
+                                                          }
+                                                        ],
+                                                        "home_appliances": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j1yvGWp08Ph-Ic3e4asmkAQwwFHhLA-Rbw&s",
+                                                            "description": "An energy-efficient air conditioner",
+                                                            "category": "AC"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j1yvGWp08Ph-Ic3e4asmkAQwwFHhLA-Rbw&s",
+                                                            "description": "A spacious double-door refrigerator",
+                                                            "category": "Fridge"
+                                                          }
+                                                        ],
+                                                        "gadgets": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j1yvGWp08Ph-Ic3e4asmkAQwwFHhLA-Rbw&s",
+                                                            "description": "A modern smartwatch with fitness tracking",
+                                                            "category": "Smartwatch"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j1yvGWp08Ph-Ic3e4asmkAQwwFHhLA-Rbw&s",
+                                                            "description": "A high-tech drone with 4K camera",
+                                                            "category": "Drone"
+                                                          }
+                                                        ],
+                                                        "electrical_items": [
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j1yvGWp08Ph-Ic3e4asmkAQwwFHhLA-Rbw&s",
+                                                            "description": "A high-speed charging cable",
+                                                            "category": "Cables"
+                                                          },
+                                                          {
+                                                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j1yvGWp08Ph-Ic3e4asmkAQwwFHhLA-Rbw&s",
+                                                            "description": "A long-lasting rechargeable battery",
+                                                            "category": "Batteries"
+                                                          }
+                                                        ]
+                                                                              
+        }
