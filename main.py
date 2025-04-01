@@ -32,8 +32,8 @@ class ImageSearchEngine:
                 self.dataset = json.load(f)
             
             # Load CLIP Model
-            self.model, self.preprocess, _ = open_clip.create_model_and_transforms("RN50", pretrained="openai")
-            self.tokenizer = open_clip.get_tokenizer("RN50")
+            self.model, self.preprocess, _ = open_clip.create_model_and_transforms("ViT-B-32", pretrained="openai")
+            self.tokenizer = open_clip.get_tokenizer("ViT-B-32")
         
         except Exception as e:
             logger.error(f"Initialization error: {e}")
